@@ -3,9 +3,11 @@ This is a code stream for friction factor based on foam-extend-4.1.
 
 
 ## Mathematical Relationships
-$$ fr = {\tau \over {{1 \over 2}\rho V^2}} $$
+$$ fr = {\tau_w \over {{1 \over 2}\rho V^2}} $$
 
-Which $h$ and $U$ are helicity and velocity vector, respectively.
+$$ \tau_w = \mu \nabla U . n$$
+
+Which $fr$, $\tau_w$, $\rho$, $V$, $mu$, $U$, and $n$ are friction factor, wall shear stress, density, characteristic velocity, dynamic viscosity, velocity vector, and perpendicular vector, respectively.
 
 
 ## Installation
