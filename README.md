@@ -3,7 +3,7 @@ This is a code stream for friction factor based on foam-extend-4.1.
 
 
 ## Mathematical Relationships
-$$ h = U. \nabla U $$
+$$ fr = \tau \over {{1 \over 2}\rho V^2} $$
 
 Which $h$ and $U$ are helicity and velocity vector, respectively.
 
